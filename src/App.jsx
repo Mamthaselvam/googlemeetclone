@@ -1,14 +1,16 @@
 import { useState } from 'react'
 
 import './Components/Topbar.css'
-import Topbar from './Components/Topbar'
+
+import Home from './Pages/Home'
 
 function App() {
   const [count, setCount] = useState(0)
 
   return (
     <>
-      <Topbar/> 
+      
+      <Home/>
     </>
   )
 }

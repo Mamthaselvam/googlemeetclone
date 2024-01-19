@@ -2,9 +2,11 @@ import React from 'react'
 import { MdOutlineContactSupport,MdOutlineSettings,MdApps } from "react-icons/md";
 import { GoReport } from "react-icons/go";
 import meet from '../assets/meet.png'
+import Main from './Main';
 const Topbar = () => {
   return (
-    <section>
+    <>
+    <div>
         <div className='flex justify-between'>
         <div className='flex items-center pl-5 pt-3'>
             <img src={meet} className="h-7"/>
@@ -20,8 +22,15 @@ const Topbar = () => {
             </div>  
         </div>
         </div>
-    </section>
+    </div>
+
+
+    <Main/>
+    </>
+
+    
   )
 }
+
 
 export default Topbar
