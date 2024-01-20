@@ -13,9 +13,9 @@ const Topbar = () => {
             <p className='pl-2 text-xl tracking-tight'> <span className='font-semibold text-neutral-500'>Google</span> Meet</p>
         </div>
         <div className='flex items-center pr-5 pt-3'>
-            <span className='pr-5 '>9:34PM.Fri,Jan 19</span>
+            <span className='pr-5 '>07:54PM.Fri,Jan 20</span>
             <div className='flex text-xl  cursor-pointer' >
-             <span className='pr-5'>< MdOutlineContactSupport/></span>
+             <span className='pr-5 '>< MdOutlineContactSupport/></span>
              <span className='pr-5'>< GoReport/></span>
              <span className='pr-5'>< MdOutlineSettings/></span>
              <span className='pr-5'>< MdApps/></span>
